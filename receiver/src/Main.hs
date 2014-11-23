@@ -6,17 +6,14 @@ import Control.Applicative
 import Control.Exception
 import Control.Lens
 import Control.Monad
-import Data.Bits
 import Foreign.Ptr
 import Foreign.Storable
 import Foreign.C.String
-import Foreign.C.Types
 import Foreign.Marshal
 import CBindings
 import Network.Socket
 import System.Environment
 import System.IO
-import System.Posix.Files
 import System.Posix.IO
 import System.Posix.Types
 
