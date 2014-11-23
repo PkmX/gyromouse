@@ -1,0 +1,14 @@
+# Intellij IDEA
+.idea/
+*.iml
+
+# SBT
+sender/gen
+sender/bin
+target/
+.idea_modules/
+
+# Cabal
+.cabal-sandbox/
+cabal.sandbox.config
+receiver/dist
