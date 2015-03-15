@@ -4,7 +4,7 @@
 
 The implementation consists of two components:
 
-* An Android app that send current gyroscope readings over the network via UDP.
+* An Android app that sends current gyroscope readings over the network via UDP.
 * A receiver on the Linux side that creates a virtual input device via `uinput` and translates the gyroscope data into mouse movement events.
 
 ## Usage
@@ -25,7 +25,7 @@ The implementation consists of two components:
 
 ## Notes
 
-There is no support for authentication and encryption of the transmitted data, it's highly recommended you run this in a secure private network, or via a ssh-tunnel.
+There is no support for authentication and encryption of the transmitted data, so it is essentially allowing remote control and sniffing of movement data of your mouse. It's highly recommended you run this in a secure private network, via a ssh-tunnel, or via Android USB tethering.
 
 ## License
 
