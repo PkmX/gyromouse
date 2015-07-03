@@ -14,7 +14,7 @@ The implementation consists of two components:
 3. Make sure you have read/write access to `/dev/uinput`, using udev rules:
 ```
     # cat > /etc/udev/rules.d/70-uinput.rules << EOF
-    KENREL=="uinput", OWNER="$your_username_here"
+    KERNEL=="uinput", OWNER="$your_username_here"
     EOF
     # udevadm control --reload-rules
     # modprobe uinput
